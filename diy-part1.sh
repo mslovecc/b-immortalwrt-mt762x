@@ -15,11 +15,11 @@
 
 # Add a feed source
 # Fetch and list tags
-# git fetch --tags
-# git tag -l
+git fetch --tags
+git tag -l
  
 # Use OpenWrt 19.07.7 release
-# git checkout v18.06.9
+git checkout v21.02.7
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 git clone https://github.com/mslovecc/luci-theme-argon.git package/luci-theme-argon
